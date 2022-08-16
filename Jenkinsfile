@@ -1,5 +1,12 @@
-node('movies'){
-    stage('Checkout'){
-        echo "checkout scm"
+pipeline{
+  agent any
+  
+  stages{
+    stage("Checkout"){
+      steps {
+        checkout scm
+      }
     }
+  }
+   
 }
