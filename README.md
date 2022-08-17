@@ -1,2 +1,2 @@
 # movies-marketplace
-## Making minor change here
+## Minor edits
